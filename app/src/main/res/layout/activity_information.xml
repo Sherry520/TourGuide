@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/informationTextStyle"
+        android:id="@+id/jianjieTextView" />
+    
+    <TextView
+        android:id="@+id/workTimeTextView"
+        style="@style/informationTextStyle"/>
+
+    <TextView
+        android:id="@+id/restaurantTextView"
+        style="@style/informationTextStyle"
+        android:paddingBottom="16dp"/>
+
+</LinearLayout>

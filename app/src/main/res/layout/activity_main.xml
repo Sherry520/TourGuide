@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.example.gyh.tourguide.MainActivity">
+
+    <Button
+        android:id="@+id/pingyaoText"
+        style="@style/mainTextStyle"
+        android:text="@string/pingyaogucheng"
+        android:background="@color/colorPingyao" />
+    <Button
+        android:id="@+id/mianshanText"
+        style="@style/mainTextStyle"
+        android:text="@string/mianshanfengjingqu"
+        android:background="@color/colorMianshan" />
+    <Button
+        android:id="@+id/qiaojiaText"
+        style="@style/mainTextStyle"
+        android:text="@string/qiaojiadayuan"
+        android:background="@color/colorQiaojia" />
+    <Button
+        android:id="@+id/wangjiaText"
+        style="@style/mainTextStyle"
+        android:text="@string/wangjiadayuan"
+        android:background="@color/colorWangjia" />
+</LinearLayout>
